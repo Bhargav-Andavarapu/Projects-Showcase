@@ -1,0 +1,20 @@
+.projects-list {
+  box-shadow: 0px 8px 8px 4px #cbd5e1;
+  border-radius: 10px;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.project-image {
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+}

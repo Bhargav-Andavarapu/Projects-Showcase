@@ -1,0 +1,91 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-container {
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+
+.website-logo {
+  width: 150px;
+  margin-left: 50px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 10px 30px 50px;
+}
+
+.select {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+
+.projects-list-container {
+  margin-top: 50px;
+  align-self: flex-start;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 30%;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #475569;
+}
+
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+}
+
+.retry-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #328af2;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 10px;
+  width: 70px;
+}
